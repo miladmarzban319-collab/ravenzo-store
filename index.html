@@ -1,24 +1,24 @@
+
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>RAVENZO | گردنبند نقره 925</title>
+<title>RAVENZO | نقره 925</title>
 <style>
 *{box-sizing:border-box}
-body{margin:0;background:#090909;color:#eee;font-family:Tahoma,Arial,sans-serif}
-header{text-align:center;padding:45px 15px;background:#111;border-bottom:1px solid #999}
-h1{font-size:42px;letter-spacing:5px;color:#ddd;margin:0}
+body{margin:0;background:#090909;color:#eee;font-family:Tahoma,Arial}
+header{text-align:center;padding:40px 15px;background:#111;border-bottom:1px solid #555}
+h1{font-size:40px;letter-spacing:5px;color:#ddd}
 header p{color:#aaa}
 main{max-width:850px;margin:35px auto;padding:15px}
-h2{text-align:center;color:#ddd}
-.products{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
-.product{background:#171717;border:1px solid #555;border-radius:12px;padding:25px;text-align:center}
+h2{text-align:center}
+.product{background:#171717;border:1px solid #555;border-radius:14px;padding:20px;text-align:center;max-width:500px;margin:auto}
+.photos{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.photos img{width:100%;height:220px;object-fit:cover;border-radius:9px}
 .product h3{color:#ddd}
-.price{color:#bbb;margin:20px}
-button{background:#ddd;color:#111;border:0;border-radius:7px;padding:12px 22px;font-weight:bold;cursor:pointer}
-form{margin-top:35px;background:#171717;padding:22px;border-radius:12px}
-input,textarea{width:100%;padding:13px;margin:9px 0;background:#090909;color:white;border:1px solid #555;border-radius:6px}
+.price{font-size:21px;color:#eee;font-weight:bold}
+button{background:#ddd;color:#111;border:0;border-radius:7px;padding:13px 22px;font-weight:bold;cursor:pointer}
 footer{text-align:center;color:#888;padding:30px}
 </style>
 </head>
@@ -29,38 +29,20 @@ footer{text-align:center;color:#888;padding:30px}
 </header>
 <main>
 <h2>مجموعه گردنبندهای نقره</h2>
-<div class="products">
 <div class="product">
-<h3>گردنبند نقره زنانه</h3>
-<p>نقره اصل 925</p>
-<p class="price">قیمت: استعلام بگیرید</p>
+<div class="photos">
+<img src="005d0499ba6371c496604a7f72be7ac955063dd5_1784941731.webp" alt="گردنبند نقره">
+<img src="73ba56683e80c026029e956e5c63aaa81fbf9522_1784941723.webp" alt="گردنبند نقره">
 </div>
-<div class="product">
-<h3>گردنبند نقره مردانه</h3>
-<p>نقره اصل 925</p>
-<p class="price">قیمت: استعلام بگیرید</p>
+<h3>گردنبند نقره</h3>
+<p>نقره اصل ۹۲۵</p>
+<p>وزن: ۳.۵ گرم</p>
+<p class="price">۶٬۷۰۰٬۰۰۰ تومان</p>
+<a href="https://wa.me/989179274631">
+<button>سفارش در واتساپ</button>
+</a>
 </div>
-</div>
-<form onsubmit="sendOrder(event)">
-<h2>ثبت سفارش</h2>
-<input id="name" placeholder="نام شما" required>
-<input id="phone" placeholder="شماره تماس" required>
-<textarea id="details" placeholder="نام محصول و توضیحات سفارش" required></textarea>
-<button type="submit">ارسال سفارش در واتساپ</button>
-</form>
 </main>
-<footer>
-RAVENZO | مدیریت: میلاد مرزبان
-</footer>
-<script>
-function sendOrder(e){
-e.preventDefault();
-let msg="سلام، سفارش جدید از سایت RAVENZO%0A"+
-"نام: "+encodeURIComponent(document.getElementById('name').value)+"%0A"+
-"تلفن: "+encodeURIComponent(document.getElementById('phone').value)+"%0A"+
-"سفارش: "+encodeURIComponent(document.getElementById('details').value);
-window.open("https://wa.me/989179274631?text="+msg,"_blank");
-}
-</script>
+<footer>RAVENZO | مدیریت: میلاد مرزبان</footer>
 </body>
 </html>
